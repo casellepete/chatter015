@@ -1,0 +1,19 @@
+<div id="messages"></div>
+
+<br/>
+
+<div class="col-md-2 form-group">
+  <label>Username</label>
+  <input id="username" type="text" class="form-control" />
+</div>
+
+<div class="col-md-6 form-group">
+  <label>Message</label>
+  <input id="message" type="text" class="form-control" />
+</div>
+
+<div class="col-md-2 form-group">
+  <label>ServerTime</label>
+  <div id="servertime">timegoeshere</div>
+</div>
+
