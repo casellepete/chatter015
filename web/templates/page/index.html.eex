@@ -1,4 +1,6 @@
 <div id="messages"></div>
+<%= @msg %>
+<%= @msg2 %>
 
 <br/>
 

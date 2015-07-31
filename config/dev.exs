@@ -33,3 +33,6 @@ config :chat, Chat.Repo,
   password: "postgres",
   database: "chat_dev",
   size: 10 # The amount of database connections in the pool
+
+
+config :chat, :api_key, "mynewgoodkey"

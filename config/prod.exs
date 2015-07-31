@@ -34,6 +34,7 @@ config :chat, Chat.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
+
 # ## Using releases
 #
 # If you are doing OTP releases, you need to instruct Phoenix

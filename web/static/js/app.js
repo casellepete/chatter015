@@ -18,7 +18,8 @@ class App {
 
 
 
-    var timechannel = socket.chan("currenttime:MST", {})
+    var timechannel = socket.chan("currenttime:America/Boise", {})
+    //var timechannel = socket.chan("currenttime:MST", {})
 
     timechannel.join()
       .receive("error", () => console.log("Failed to connect to timechannel"))

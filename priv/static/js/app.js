@@ -1349,7 +1349,8 @@ var App = (function () {
         return console.log("Closed");
       });
 
-      var timechannel = socket.chan("currenttime:MST", {});
+      var timechannel = socket.chan("currenttime:America/Boise", {});
+      //var timechannel = socket.chan("currenttime:MST", {})
 
       timechannel.join().receive("error", function () {
         return console.log("Failed to connect to timechannel");
